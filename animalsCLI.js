@@ -8,7 +8,7 @@ class Animal{
     this.thirst = 100; //done
     this.happiness = 100; //done
     this.energy = 100; //done
-    this.sleeping = false; //done
+    // this.sleeping = false; //done
     this.toilet = 100; //done
     this.hygiene = 100; //done
     }
@@ -97,7 +97,6 @@ class Cat extends Animal{
         this.hunger -= 3;
     }
     hunt(){
-        mouse++;
         this.happiness += 20;
         this.hygiene -=15;
         this.hunger -= 20;
